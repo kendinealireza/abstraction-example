@@ -51,11 +51,12 @@ class Car (Carbase) :
 
 
 if __name__ == "__main__" :
+    #create car
     car1 = Car("benz" , 2014 , 12000000)
     car2 = Car("bmw" , 2014 , 12000000)
     car3 = Car("bmw coupe" , 2014 , 12000000)
     car4 = Car("benz cls" , 2014 , 12000000)
-
+    #create product
     products = [car1 , car2 , car3 , car4]
 
     for product in products :
